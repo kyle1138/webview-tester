@@ -9,7 +9,7 @@ export default class WebviewTest {
     this.miContent = this.findMiContent(this.doc);
     this.allParams = this.collectParams(this.miContent);
     this.updateImageSources = this.updateImageSources.bind(this);
-
+    
   }
 
   updateImageSources(queryString) {
